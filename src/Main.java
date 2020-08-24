@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        long currentBalance = 100;
-        long topup = 3000;
-        long bonus;
+        int currentBalance = 100;
+        int topup = 3000;
+        int bonus;
         if (topup > 1000) {
             bonus = topup / 100;
         } else {
